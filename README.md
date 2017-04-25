@@ -2,7 +2,7 @@
 
 ## Standard Workflow
 
- 1. Fork to your own account.
+ 1. Fork to your own account
  1. Clone to your computer.
  1. In the GitHub Desktop app, [create a branch for your work](https://help.github.com/desktop/guides/contributing/creating-a-branch-for-your-work/#creating-a-branch).
  1. Open the entire folder you downloaded in Atom.
