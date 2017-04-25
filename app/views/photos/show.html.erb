@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <h1>Photo Details</h1>
+  </div>
+  <div class="row">
+    <img src="<%= @thephotourl %>" />
+    <p><%= @thecaption %></p>
+    <p><%= time_ago_in_words(@createdat) %> ago</p>
+  </div>
+  <div class="row">
+  <button><a href="/photos">Go Back</a></button>
+  <button><a href="#">Edit</a></button>
+  <button><a href="#">Delete</a></button>
+  </div>
+
+</div>
