@@ -1,15 +1,17 @@
 <div><h1>All Photos</h1></div>
 
-<div><a class="btn btn-default" href="/new">Add a Photo</a></div>
+<div><a class="btn btn-default" href="/new">Add a New Photo</a></div><br/>
 
 
 <% @all_photos.each do |the_photo| %>
 
 <div class="thumbnail">
 <img src="<%= the_photo.source %>" />
+<div class="caption">
 <a class="btn btn-default btn-block" href="/photos/<%= the_photo.id %>">Show Details</a>
 <a class="btn btn-default btn-block" href="#">Edit</a>
 <a class="btn btn-default btn-block" href="#">Delete</a>
+</div>
 
   </div>
   <% end %>

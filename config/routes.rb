@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
 #CREATE
   get("/new", { :controller => "photos", :action => "new_form" })
+  get("/create_photo", { :controller => "photos", :action => "create_row" })
 
 #READ
 
