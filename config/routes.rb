@@ -12,7 +12,15 @@ Rails.application.routes.draw do
 
 #UPDATE
 
-#EDIT
+  get("/photos/:theid/edit", { :controller => "photos", :action => "edit_form" })
+  get("/update_row/:theid", { :controller => "photos", :action => "update_row" })
+
+#DELETE
+
+
+  get("/photos/:theid/delete", { :controller => "photos", :action => "delete_photo" })
+
+
 
 
   devise_for :admin_users, ActiveAdmin::Devise.config

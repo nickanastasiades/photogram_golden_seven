@@ -1,4 +1,3 @@
-<div class="container">
   <div class="row">
     <h1>Photo Details</h1>
   </div>
@@ -9,8 +8,6 @@
   </div>
   <div class="row">
   <button><a href="/photos">Go Back</a></button>
-  <button><a href="#">Edit</a></button>
-  <button><a href="#">Delete</a></button>
+  <button><a href="/photos/<%= @photo_id %>/edit">Edit</a></button>
+  <button><a href="/photos/<%= @photo_id %>/delete">Delete</a></button>
   </div>
-
-</div>
